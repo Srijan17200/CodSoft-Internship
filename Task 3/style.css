@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #89a8b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #b3c8cf;
+    border-radius: 20px;
+    height: 45vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#display {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 2px;
+    background-color: #e5e1da;
+    border-radius: 20px;
+    height: 8vh;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.buttonbox {
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 2px;
+    background-color: #e5e1da;
+    border-radius: 20px;
+    height: 63%;
+    width: 90%;
+    margin-bottom: 5%;
+    padding: 5%;
+    padding-top: 4%;
+}
+
+.btn {
+    width: 20%;
+    font-size: 2.1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transform: scale(1.1);
+}
+
+.btn:active {
+    background-color: #89a8b2;
+    transform: scale(0.90);
+}
+
+.firstbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+    gap: 3%;
+}
+
+.secondbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+    gap: 3%;
+}
+
+.thirdbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+    gap: 3%;
+}
+
+.fourthbox {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3%;
+}
